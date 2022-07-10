@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://wallpaperaccess.com/full/1808239.jpg);
+}
+
+button {
+    background-color: rgb(52, 68, 70);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    color: lime;
+
+    &:hover {
+        background-color: rgb(40, 58, 61);
+        border-color:rgb(6, 31, 58);
+    }
+}
+
+.sound-title {
+    height: 80px;
+    text-align: center;
+    padding-top: 25px;
+    vertical-align: middle;
+    margin-bottom: 5px;
+    background-color: black;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 0.4rem;
+    color: lime;
+}
+
+#drum-machine {
+    background-color: lime;
+    width: 600px;
+    height: 347px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid rgb(2, 19, 37);
+    border-radius: 10px;
+}
