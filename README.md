@@ -1,4 +1,4 @@
-# fcc-drum-machine
+# Drum Machine
 
 This was made as part of the freeCodeCamp Front End Development Libraries curriculum.
 
